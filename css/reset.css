@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/* 웹폰트 CSS */
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+
+/* 초기화 설정 */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+/* root 변수 선언 */
+:root{
+    --color-darkRed: #CC2131;
+    --color-brightRed: #ED1C24;
+}
+
+
+
