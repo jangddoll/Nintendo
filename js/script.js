@@ -46,6 +46,7 @@ var interval = setInterval(function() {
   }
   randomCha[randomNum].style.opacity = "1";
 }, 60000);
+
 setTimeout(function() {
   for(var i = 0; i < randomCha.length; i++) {
     randomCha[0].style.opacity = "0";
@@ -79,7 +80,7 @@ const imgs = document.querySelectorAll(".hard_img");
 const texts = document.querySelectorAll(".hard_tab");
 
 const imgBox = document.querySelector(".hard_imgs");
-const tabs = document.querySelector(".hard_tabs");
+const tabBox = document.querySelector(".hard_tabs");
 let isOn = "";
 
 for (var i = 0; i < tabList.length; i++) {
@@ -94,7 +95,7 @@ for (var i = 0; i < tabList.length; i++) {
 
     isOn = this.getAttribute("href");
     imgBox.querySelector(isOn).style.display = "block";
-    tabs.querySelector(isOn).classList.add("on")
+    tabBox.querySelector(isOn).classList.add("on")
   })
 }
 

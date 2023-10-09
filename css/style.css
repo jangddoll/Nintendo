@@ -78,7 +78,7 @@
 }
 
 .header .inner .flex-box .gnb .gnb_item:hover::after {
-    transform: translateX(-50%) scale(100%);
+    transform: translateX(-50%) scale(1);
 }
 
 .header .inner .flex-box .gnb .gnb_item>a {
@@ -577,7 +577,7 @@
     align-items: center;
 }
 
-.character .inner .cha_list a li {
+.character .inner .cha_list li {
     width: 186px;
     height: 186px;
     border-radius: 100%;
@@ -585,26 +585,26 @@
     transition: all 0.5s;
 }
 
-.character .inner .cha_list a .cha_item1 {
+.character .inner .cha_list .cha_item1 {
     background: url("../img/character/zelda.png");
 }
 
-.character .inner .cha_list a .cha_item2 {
+.character .inner .cha_list .cha_item2 {
     background: url("../img/character/kirby.png");
 }
-.character .inner .cha_list a .cha_item3{
+.character .inner .cha_list .cha_item3{
     background: url("../img/character/mario.png");
 }
 
-.character .inner .cha_list a .cha_item4 {
+.character .inner .cha_list .cha_item4 {
     background: url("../img/character/pika.png");
 }
 
-.character .inner .cha_list a .cha_item5 {
+.character .inner .cha_list .cha_item5 {
     background: url("../img/character/animal.png");
 }
 
-.character .inner .cha_list a .cha_bg {
+.character .inner .cha_list .cha_bg {
     position: absolute;
     top: 0;
     left: 0;
@@ -618,16 +618,16 @@
     text-align: center;
 }
 
-.character .inner .cha_list a .cha_bg p {
+.character .inner .cha_list .cha_bg p {
     font-size: 30px;
     font-weight: 900;
     color: #fff;
 }
-.character .inner .cha_list a li:hover{
+.character .inner .cha_list li:hover{
     transform: scale(1.3)
 }
-.character .inner .cha_list a li:hover .cha_bg,
-.character .inner .cha_list a li:hover .cha_bg p {
+.character .inner .cha_list li:hover .cha_bg,
+.character .inner .cha_list li:hover .cha_bg p {
     height: 100%;
 }
 
